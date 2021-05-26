@@ -1,5 +1,62 @@
+/* Global Styles
+______________________*/
+
+body {
+	color: #343434;
+	background-color: #343434;
+}
+
 img { 
 	width: 300px;
+}
+
+header , footer{
+	background-color: mistyrose;
+}
+
+section {
+	background-color: antiquewhite;
+}
+
+.work-experience {
+	background-color: lavenderblush;
+}
+
+/* Headline styles
+_______________________*/
+
+h1 {
+	color: midnightblue;
+}
+
+h2 {
+	color: darkslateblue;
+}
+
+h3 {
+	color: slateblue;
+}
+
+/* link styles
+__________________________*/
+
+a {
+	color: darkviolet;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.projects a {
+	background-color: lightcyan;
+	text-decoration: none;
+	padding: 2px;
+	border-radus: 4px;
+}
+
+.projects a:hover {
+	background: rgba(157, 250, 171, 1.00);
 }
 /* CSS Document */
 
