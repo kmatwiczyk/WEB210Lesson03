@@ -1,17 +1,33 @@
 /* Global Styles
 ______________________*/
 
+html {
+	box-sizing: border-box;
+}
+
+*,*:before, *:after {
+	box-sizing: inherit;
+}
+
 body {
 	color: #343434;
-	background-color: #343434;
+	/* background-color: #343434; */
+	margin: 0;
+	padding: 0;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 16px;
+	line-height: 1.5;
+	
 }
 
 img { 
 	width: 300px;
+	
 }
 
 header , footer{
 	background-color: mistyrose;
+	text-align: center;
 }
 
 section {
@@ -22,15 +38,30 @@ section {
 	background-color: lavenderblush;
 }
 
+.content-wrap {
+	width: 800px;
+	margin: 0 auto;
+	padding: 60px 0;
+	
+}
+
 /* Headline styles
 _______________________*/
 
 h1 {
 	color: midnightblue;
+	font-family: "Bradley Hand Bold", "Noteworthy Bold", "Adobe Handwriting Frank", "cursive";
+	font-size: 70px;
+	margin: 0;
+	
 }
 
 h2 {
 	color: darkslateblue;
+	margin: 0;
+	font-family: "Bradley Hand Bold", "Noteworthy Bold", "Adobe Handwriting Frank", "cursive";
+	font-size: 40px;
+	
 }
 
 h3 {
@@ -53,10 +84,30 @@ a:hover {
 	text-decoration: none;
 	padding: 2px;
 	border-radus: 4px;
+	display: inline-block;
 }
 
 .projects a:hover {
 	background: rgba(157, 250, 171, 1.00);
+}
+
+.project-item {
+	overflow: hidden;
+	border-bottom: 1px dashed darkslateblue;
+	padding: 25px 0;
+}
+
+.project-item img{
+	float: left;
+	margin-right: 20px;
+}
+
+.project-item h3 {
+	margin: 0;
+}
+
+.project-item a {
+	float: right;
 }
 /* CSS Document */
 
